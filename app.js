@@ -7,7 +7,7 @@ const queries = require('./queries')
 app.use(bodyParser.json())
 app.use(cors())
 
-app.get('/', (request, response) => {
+app.get('/drinks', (request, response) => {
   queries
     .list('drinks')
     .then(drinks => {
