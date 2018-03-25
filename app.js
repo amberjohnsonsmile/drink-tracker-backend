@@ -15,6 +15,15 @@ app.get('/drinks', (request, response) => {
     });
 });
 
+app.put('/drinks/:date', (request, response) => {
+  queries
+    .update(request.params.date, request.body, 'drinks')
+    .then(drinks => {
+      response.json({drinks});
+    })
+    .catch(console.error);
+});
+
 app.use((req, res) => {
   res.sendStatus(404)
 })

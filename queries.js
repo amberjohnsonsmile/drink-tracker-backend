@@ -1,8 +1,16 @@
-const database = require('./database-connection')
+const database = require('./database-connection');
 
 module.exports = {
-  list(table){
+  list(table) {
     return database(table)
-    .where('drinks', '>', 0);
+      .where('drinks', '>', 0)
+      .orderBy('id', 'asc');
+  },
+  update(date, drinks, table) {
+    return database(table)
+      .update(drinks)
+      .where('date', date)
+      .returning('*')
+      .then(record => record[0]);
   }
-}
+};
