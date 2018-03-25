@@ -15,6 +15,15 @@ app.get('/drinks', (request, response) => {
     });
 });
 
+app.get('/drinks/:date', (request, response) => {
+  queries
+    .read(request.params.date, 'drinks')
+    .then(drinks => {
+      response.json({drinks});
+    })
+    .catch(console.error);
+});
+
 app.put('/drinks/:date', (request, response) => {
   queries
     .update(request.params.date, request.body, 'drinks')
@@ -24,8 +33,8 @@ app.put('/drinks/:date', (request, response) => {
     .catch(console.error);
 });
 
-app.use((req, res) => {
-  res.sendStatus(404)
+app.use((request, response) => {
+  response.sendStatus(404)
 })
 
 app.listen(process.env.PORT || 3000)

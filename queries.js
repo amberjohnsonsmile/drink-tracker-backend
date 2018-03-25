@@ -6,6 +6,11 @@ module.exports = {
       .where('drinks', '>', 0)
       .orderBy('id', 'asc');
   },
+  read(date, table) {
+    return database(table)
+      .where('date', date)
+      .first();
+  },
   update(date, drinks, table) {
     return database(table)
       .update(drinks)
