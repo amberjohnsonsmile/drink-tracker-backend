@@ -7,13 +7,13 @@ exports.seed = (knex, Promise) => {
           id: 1,
           date: '2018-03-01',
           dateString: 'Thursday, March 1',
-          drinks: 3
+          drinks: 0
         },
         {
           id: 2,
           date: '2018-03-02',
           dateString: 'Friday, March 2',
-          drinks: 0
+          drinks: 3
         },
         {
           id: 3,
