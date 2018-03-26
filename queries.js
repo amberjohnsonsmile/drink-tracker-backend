@@ -20,5 +20,11 @@ module.exports = {
       .where('date', date)
       .returning('*')
       .then(record => record[0]);
+  },
+  create(goal, table) {
+    return database(table)
+      .insert(goal)
+      .returning('*')
+      .then(record => record[0]);
   }
 };

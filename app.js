@@ -41,6 +41,15 @@ app.get('/goals', (request, response) => {
     });
 });
 
+app.post('/goals', (request, response) => {
+  queries
+    .create(request.body, 'goals')
+    .then(goal => {
+      response.status(201).json({goal});
+    })
+    .catch(console.error);
+});
+
 app.use((request, response) => {
   response.sendStatus(404)
 })
