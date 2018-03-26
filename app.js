@@ -9,7 +9,7 @@ app.use(cors())
 
 app.get('/drinks', (request, response) => {
   queries
-    .list('drinks')
+    .listDrinks('drinks')
     .then(drinks => {
       response.json({ drinks });
     });
@@ -31,6 +31,14 @@ app.put('/drinks/:date', (request, response) => {
       response.json({drinks});
     })
     .catch(console.error);
+});
+
+app.get('/goals', (request, response) => {
+  queries
+    .list('goals')
+    .then(goals => {
+      response.json({ goals });
+    });
 });
 
 app.use((request, response) => {

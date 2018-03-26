@@ -2,6 +2,9 @@ const database = require('./database-connection');
 
 module.exports = {
   list(table) {
+    return database(table);
+  },
+  listDrinks(table) {
     return database(table)
       .where('drinks', '>', 0)
       .orderBy('id', 'asc');
