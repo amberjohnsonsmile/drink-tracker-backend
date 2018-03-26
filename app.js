@@ -50,6 +50,15 @@ app.post('/goals', (request, response) => {
     .catch(console.error);
 });
 
+app.delete('/goals/:id', (request, response) => {
+  queries
+    .delete(request.params.id, 'goals')
+    .then(() => {
+      response.sendStatus(204);
+    })
+    .catch(console.error);
+});
+
 app.use((request, response) => {
   response.sendStatus(404)
 })

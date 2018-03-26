@@ -26,5 +26,10 @@ module.exports = {
       .insert(goal)
       .returning('*')
       .then(record => record[0]);
+  },
+  delete(id, table) {
+    return database(table)
+      .where('id', id)
+      .del();
   }
 };
