@@ -405,107 +405,107 @@ exports.seed = (knex, Promise) => {
         },
         {
           id: 81,
-          date: '2018-05-21',
+          date: '2018-05-20',
           drinks: 0
         },
         {
           id: 82,
-          date: '2018-05-22',
+          date: '2018-05-21',
           drinks: 0
         },
         {
           id: 83,
-          date: '2018-05-23',
+          date: '2018-05-22',
           drinks: 0
         },
         {
           id: 84,
-          date: '2018-05-24',
+          date: '2018-05-23',
           drinks: 0
         },
         {
           id: 85,
-          date: '2018-05-25',
+          date: '2018-05-24',
           drinks: 0
         },
         {
           id: 86,
-          date: '2018-05-26',
+          date: '2018-05-25',
           drinks: 0
         },
         {
           id: 87,
-          date: '2018-05-27',
+          date: '2018-05-26',
           drinks: 0
         },
         {
           id: 88,
-          date: '2018-05-28',
+          date: '2018-05-27',
           drinks: 0
         },
         {
           id: 89,
-          date: '2018-05-29',
+          date: '2018-05-28',
           drinks: 0
         },
         {
           id: 90,
-          date: '2018-05-30',
+          date: '2018-05-29',
           drinks: 0
         },
         {
           id: 91,
-          date: '2018-05-31',
+          date: '2018-05-30',
           drinks: 0
         },
         {
           id: 92,
-          date: '2018-06-01',
+          date: '2018-05-31',
           drinks: 0
         },
         {
           id: 93,
-          date: '2018-06-02',
+          date: '2018-06-01',
           drinks: 0
         },
         {
           id: 94,
-          date: '2018-06-03',
+          date: '2018-06-02',
           drinks: 0
         },
         {
           id: 95,
-          date: '2018-06-04',
+          date: '2018-06-03',
           drinks: 0
         },
         {
           id: 96,
-          date: '2018-06-05',
+          date: '2018-06-04',
           drinks: 0
         },
         {
           id: 97,
-          date: '2018-06-06',
+          date: '2018-06-05',
           drinks: 0
         },
         {
           id: 98,
-          date: '2018-06-07',
+          date: '2018-06-06',
           drinks: 0
         },
         {
           id: 99,
-          date: '2018-06-08',
+          date: '2018-06-07',
           drinks: 0
         },
         {
           id: 100,
-          date: '2018-06-09',
+          date: '2018-06-08',
           drinks: 0
         },
         {
           id: 101,
-          date: '2018-06-10',
+          date: '2018-06-09',
           drinks: 0
         },
         {
@@ -1145,687 +1145,687 @@ exports.seed = (knex, Promise) => {
         },
         {
           id: 229,
-          date: '2018-',
+          date: '2018-10-15',
           drinks: 0
         },
         {
           id: 230,
-          date: '2018-',
+          date: '2018-10-16',
           drinks: 0
         },
         {
           id: 231,
-          date: '2018-',
+          date: '2018-10-17',
           drinks: 0
         },
         {
           id: 232,
-          date: '2018-',
+          date: '2018-10-18',
           drinks: 0
         },
         {
           id: 233,
-          date: '2018-',
+          date: '2018-10-19',
           drinks: 0
         },
         {
           id: 234,
-          date: '2018-',
+          date: '2018-10-20',
           drinks: 0
         },
         {
           id: 235,
-          date: '2018-',
+          date: '2018-10-21',
           drinks: 0
         },
         {
           id: 236,
-          date: '2018-',
+          date: '2018-10-22',
           drinks: 0
         },
         {
           id: 237,
-          date: '2018-',
+          date: '2018-10-23',
           drinks: 0
         },
         {
           id: 238,
-          date: '2018-',
+          date: '2018-10-24',
           drinks: 0
         },
         {
           id: 239,
-          date: '2018-',
+          date: '2018-10-25',
           drinks: 0
         },
         {
           id: 240,
-          date: '2018-',
+          date: '2018-10-26',
           drinks: 0
         },
         {
           id: 241,
-          date: '2018-',
+          date: '2018-10-27',
           drinks: 0
         },
         {
           id: 242,
-          date: '2018-',
+          date: '2018-10-28',
           drinks: 0
         },
         {
           id: 243,
-          date: '2018-',
+          date: '2018-10-29',
           drinks: 0
         },
         {
           id: 244,
-          date: '2018-',
+          date: '2018-10-30',
           drinks: 0
         },
         {
           id: 245,
-          date: '2018-',
+          date: '2018-10-31',
           drinks: 0
         },
         {
           id: 246,
-          date: '2018-',
+          date: '2018-11-01',
           drinks: 0
         },
         {
           id: 247,
-          date: '2018-',
+          date: '2018-11-02',
           drinks: 0
         },
         {
           id: 248,
-          date: '2018-',
+          date: '2018-11-03',
           drinks: 0
         },
         {
           id: 249,
-          date: '2018-',
+          date: '2018-11-04',
           drinks: 0
         },
         {
           id: 250,
-          date: '2018-',
+          date: '2018-11-05',
           drinks: 0
         },
         {
           id: 251,
-          date: '2018-',
+          date: '2018-11-06',
           drinks: 0
         },
         {
           id: 252,
-          date: '2018-',
+          date: '2018-11-07',
           drinks: 0
         },
         {
           id: 253,
-          date: '2018-',
+          date: '2018-11-08',
           drinks: 0
         },
         {
           id: 254,
-          date: '2018-',
+          date: '2018-11-09',
           drinks: 0
         },
         {
           id: 255,
-          date: '2018-',
+          date: '2018-11-10',
           drinks: 0
         },
         {
           id: 256,
-          date: '2018-',
+          date: '2018-11-11',
           drinks: 0
         },
         {
           id: 257,
-          date: '2018-',
+          date: '2018-11-12',
           drinks: 0
         },
         {
           id: 258,
-          date: '2018-',
+          date: '2018-11-13',
           drinks: 0
         },
         {
           id: 259,
-          date: '2018-',
+          date: '2018-11-14',
           drinks: 0
         },
         {
           id: 260,
-          date: '2018-',
+          date: '2018-11-15',
           drinks: 0
         },
         {
           id: 261,
-          date: '2018-',
+          date: '2018-11-16',
           drinks: 0
         },
         {
           id: 262,
-          date: '2018-',
+          date: '2018-11-17',
           drinks: 0
         },
         {
           id: 263,
-          date: '2018-',
+          date: '2018-11-18',
           drinks: 0
         },
         {
           id: 264,
-          date: '2018-',
+          date: '2018-11-19',
           drinks: 0
         },
         {
           id: 265,
-          date: '2018-',
+          date: '2018-11-20',
           drinks: 0
         },
         {
           id: 266,
-          date: '2018-',
+          date: '2018-11-21',
           drinks: 0
         },
         {
           id: 267,
-          date: '2018-',
+          date: '2018-11-22',
           drinks: 0
         },
         {
           id: 268,
-          date: '2018-',
+          date: '2018-11-23',
           drinks: 0
         },
         {
           id: 269,
-          date: '2018-',
+          date: '2018-11-24',
           drinks: 0
         },
         {
           id: 270,
-          date: '2018-',
+          date: '2018-11-25',
           drinks: 0
         },
         {
           id: 271,
-          date: '2018-',
+          date: '2018-11-26',
           drinks: 0
         },
         {
           id: 272,
-          date: '2018-',
+          date: '2018-11-27',
           drinks: 0
         },
         {
           id: 273,
-          date: '2018-',
+          date: '2018-11-28',
           drinks: 0
         },
         {
           id: 274,
-          date: '2018-',
+          date: '2018-11-29',
           drinks: 0
         },
         {
           id: 275,
-          date: '2018-',
+          date: '2018-11-30',
           drinks: 0
         },
         {
           id: 276,
-          date: '2018-',
+          date: '2018-12-01',
           drinks: 0
         },
         {
           id: 277,
-          date: '2018-',
+          date: '2018-12-02',
           drinks: 0
         },
         {
           id: 278,
-          date: '2018-',
+          date: '2018-12-03',
           drinks: 0
         },
         {
           id: 279,
-          date: '2018-',
+          date: '2018-12-04',
           drinks: 0
         },
         {
           id: 280,
-          date: '2018-',
+          date: '2018-12-05',
           drinks: 0
         },
         {
           id: 281,
-          date: '2018-',
+          date: '2018-12-06',
           drinks: 0
         },
         {
           id: 282,
-          date: '2018-',
+          date: '2018-12-07',
           drinks: 0
         },
         {
           id: 283,
-          date: '2018-',
+          date: '2018-12-08',
           drinks: 0
         },
         {
           id: 284,
-          date: '2018-',
+          date: '2018-12-09',
           drinks: 0
         },
         {
           id: 285,
-          date: '2018-',
+          date: '2018-12-10',
           drinks: 0
         },
         {
           id: 286,
-          date: '2018-',
+          date: '2018-12-11',
           drinks: 0
         },
         {
           id: 287,
-          date: '2018-',
+          date: '2018-12-12',
           drinks: 0
         },
         {
           id: 288,
-          date: '2018-',
+          date: '2018-12-13',
           drinks: 0
         },
         {
           id: 289,
-          date: '2018-',
+          date: '2018-12-14',
           drinks: 0
         },
         {
           id: 290,
-          date: '2018-',
+          date: '2018-12-15',
           drinks: 0
         },
         {
           id: 291,
-          date: '2018-',
+          date: '2018-12-16',
           drinks: 0
         },
         {
           id: 292,
-          date: '2018-',
+          date: '2018-12-17',
           drinks: 0
         },
         {
           id: 293,
-          date: '2018-',
+          date: '2018-12-18',
           drinks: 0
         },
         {
           id: 294,
-          date: '2018-',
+          date: '2018-12-19',
           drinks: 0
         },
         {
           id: 295,
-          date: '2018-',
+          date: '2018-12-20',
           drinks: 0
         },
         {
           id: 296,
-          date: '2018-',
+          date: '2018-12-21',
           drinks: 0
         },
         {
           id: 297,
-          date: '2018-',
+          date: '2018-12-22',
           drinks: 0
         },
         {
           id: 298,
-          date: '2018-',
+          date: '2018-12-23',
           drinks: 0
         },
         {
           id: 299,
-          date: '2018-',
+          date: '2018-12-24',
           drinks: 0
         },
         {
           id: 300,
-          date: '2018-',
+          date: '2018-12-25',
           drinks: 0
         },
         {
           id: 301,
-          date: '2018-',
+          date: '2018-12-26',
           drinks: 0
         },
         {
           id: 302,
-          date: '2018-',
+          date: '2018-12-27',
           drinks: 0
         },
         {
           id: 303,
-          date: '2018-',
+          date: '2018-12-28',
           drinks: 0
         },
         {
           id: 304,
-          date: '2018-',
+          date: '2018-12-29',
           drinks: 0
         },
         {
           id: 305,
-          date: '2018-',
+          date: '2018-12-30',
           drinks: 0
         },
         {
           id: 306,
-          date: '2018-',
+          date: '2018-12-31',
           drinks: 0
         },
         {
           id: 307,
-          date: '2018-',
+          date: '2019-01-01',
           drinks: 0
         },
         {
           id: 308,
-          date: '2018-',
+          date: '2019-01-02',
           drinks: 0
         },
         {
           id: 309,
-          date: '2018-',
+          date: '2019-01-03',
           drinks: 0
         },
         {
           id: 310,
-          date: '2018-',
+          date: '2019-01-04',
           drinks: 0
         },
         {
           id: 311,
-          date: '2018-',
+          date: '2019-01-05',
           drinks: 0
         },
         {
           id: 312,
-          date: '2018-',
+          date: '2019-01-06',
           drinks: 0
         },
         {
           id: 313,
-          date: '2018-',
+          date: '2019-01-07',
           drinks: 0
         },
         {
           id: 314,
-          date: '2018-',
+          date: '2019-01-08',
           drinks: 0
         },
         {
           id: 315,
-          date: '2018-',
+          date: '2019-01-09',
           drinks: 0
         },
         {
           id: 316,
-          date: '2018-',
+          date: '2019-01-10',
           drinks: 0
         },
         {
           id: 317,
-          date: '2018-',
+          date: '2019-01-11',
           drinks: 0
         },
         {
           id: 318,
-          date: '2018-',
+          date: '2019-01-12',
           drinks: 0
         },
         {
           id: 319,
-          date: '2018-',
+          date: '2019-01-13',
           drinks: 0
         },
         {
           id: 320,
-          date: '2018-',
+          date: '2019-01-14',
           drinks: 0
         },
         {
           id: 321,
-          date: '2018-',
+          date: '2019-01-15',
           drinks: 0
         },
         {
           id: 322,
-          date: '2018-',
+          date: '2019-01-16',
           drinks: 0
         },
         {
           id: 323,
-          date: '2018-',
+          date: '2019-01-17',
           drinks: 0
         },
         {
           id: 324,
-          date: '2018-',
+          date: '2019-01-18',
           drinks: 0
         },
         {
           id: 325,
-          date: '2018-',
+          date: '2019-01-19',
           drinks: 0
         },
         {
           id: 326,
-          date: '2018-',
+          date: '2019-01-20',
           drinks: 0
         },
         {
           id: 327,
-          date: '2018-',
+          date: '2019-01-21',
           drinks: 0
         },
         {
           id: 328,
-          date: '2018-',
+          date: '2019-01-22',
           drinks: 0
         },
         {
           id: 329,
-          date: '2018-',
+          date: '2019-01-23',
           drinks: 0
         },
         {
           id: 330,
-          date: '2018-',
+          date: '2019-01-24',
           drinks: 0
         },
         {
           id: 331,
-          date: '2018-',
+          date: '2019-01-25',
           drinks: 0
         },
         {
           id: 332,
-          date: '2018-',
+          date: '2019-01-26',
           drinks: 0
         },
         {
           id: 333,
-          date: '2018-',
+          date: '2019-01-27',
           drinks: 0
         },
         {
           id: 334,
-          date: '2018-',
+          date: '2019-01-28',
           drinks: 0
         },
         {
           id: 335,
-          date: '2018-',
+          date: '2019-01-29',
           drinks: 0
         },
         {
           id: 336,
-          date: '2018-',
+          date: '2019-01-30',
           drinks: 0
         },
         {
           id: 337,
-          date: '2018-',
+          date: '2019-01-31',
           drinks: 0
         },
         {
           id: 338,
-          date: '2018-',
+          date: '2019-02-01',
           drinks: 0
         },
         {
           id: 339,
-          date: '2018-',
+          date: '2019-02-02',
           drinks: 0
         },
         {
           id: 340,
-          date: '2018-',
+          date: '2019-02-03',
           drinks: 0
         },
         {
           id: 341,
-          date: '2018-',
+          date: '2019-02-04',
           drinks: 0
         },
         {
           id: 342,
-          date: '2018-',
+          date: '2019-02-05',
           drinks: 0
         },
         {
           id: 343,
-          date: '2018-',
+          date: '2019-02-06',
           drinks: 0
         },
         {
           id: 344,
-          date: '2018-',
+          date: '2019-02-07',
           drinks: 0
         },
         {
           id: 345,
-          date: '2018-',
+          date: '2019-02-08',
           drinks: 0
         },
         {
           id: 346,
-          date: '2018-',
+          date: '2019-02-09',
           drinks: 0
         },
         {
           id: 347,
-          date: '2018-',
+          date: '2019-02-10',
           drinks: 0
         },
         {
           id: 348,
-          date: '2018-',
+          date: '2019-02-11',
           drinks: 0
         },
         {
           id: 349,
-          date: '2018-',
+          date: '2019-02-12',
           drinks: 0
         },
         {
           id: 350,
-          date: '2018-',
+          date: '2019-02-13',
           drinks: 0
         },
         {
           id: 351,
-          date: '2018-',
+          date: '2019-02-14',
           drinks: 0
         },
         {
           id: 352,
-          date: '2018-',
+          date: '2019-02-15',
           drinks: 0
         },
         {
           id: 353,
-          date: '2018-',
+          date: '2019-02-16',
           drinks: 0
         },
         {
           id: 354,
-          date: '2018-',
+          date: '2019-02-17',
           drinks: 0
         },
         {
           id: 355,
-          date: '2018-',
+          date: '2019-02-18',
           drinks: 0
         },
         {
           id: 356,
-          date: '2018-',
+          date: '2019-02-19',
           drinks: 0
         },
         {
           id: 357,
-          date: '2018-',
+          date: '2019-02-20',
           drinks: 0
         },
         {
           id: 358,
-          date: '2018-',
+          date: '2019-02-21',
           drinks: 0
         },
         {
           id: 359,
-          date: '2018-',
+          date: '2019-02-22',
           drinks: 0
         },
         {
           id: 360,
-          date: '2018-',
+          date: '2019-02-23',
           drinks: 0
         },
         {
           id: 361,
-          date: '2018-',
+          date: '2019-02-24',
           drinks: 0
         },
         {
           id: 362,
-          date: '2018-',
+          date: '2019-02-25',
           drinks: 0
         },
         {
           id: 363,
-          date: '2018-',
+          date: '2019-02-26',
           drinks: 0
         },
         {
           id: 364,
-          date: '2018-',
+          date: '2019-02-27',
           drinks: 0
         },
         {
           id: 365,
-          date: '2018-',
+          date: '2019-02-28',
           drinks: 0
         }
       ]);
