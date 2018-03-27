@@ -37,6 +37,12 @@ app.put('/drinks/:date', (request, response) => {
     .catch(console.error);
 });
 
+app.get('/:month', (request, response) => {
+  queries.listMonth(request.params.month, 'drinks').then(drinks => {
+    response.json({drinks});
+  });
+});
+
 app.get('/goals', (request, response) => {
   queries.list('goals').then(goals => {
     response.json({goals});

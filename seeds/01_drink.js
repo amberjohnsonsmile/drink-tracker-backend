@@ -171,7 +171,7 @@ exports.seed = (knex, Promise) => {
         {
           id: 34,
           date: '2018-04-03',
-          drinks: 1
+          drinks: 0
         },
         {
           id: 35,
@@ -186,7 +186,7 @@ exports.seed = (knex, Promise) => {
         {
           id: 37,
           date: '2018-04-06',
-          drinks: 2
+          drinks: 0
         },
         {
           id: 38,
@@ -201,7 +201,7 @@ exports.seed = (knex, Promise) => {
         {
           id: 40,
           date: '2018-04-09',
-          drinks: 1
+          drinks: 0
         },
         {
           id: 41,
@@ -221,7 +221,7 @@ exports.seed = (knex, Promise) => {
         {
           id: 44,
           date: '2018-04-13',
-          drinks: 3
+          drinks: 0
         },
         {
           id: 45,
@@ -251,7 +251,7 @@ exports.seed = (knex, Promise) => {
         {
           id: 50,
           date: '2018-04-19',
-          drinks: 1
+          drinks: 0
         },
         {
           id: 51,
@@ -1690,142 +1690,142 @@ exports.seed = (knex, Promise) => {
         },
         {
           id: 338,
-          date: '2019-02-01',
-          drinks: 0
+          date: '2018-02-01',
+          drinks: 1
         },
         {
           id: 339,
-          date: '2019-02-02',
+          date: '2018-02-02',
           drinks: 0
         },
         {
           id: 340,
-          date: '2019-02-03',
-          drinks: 0
+          date: '2018-02-03',
+          drinks: 2
         },
         {
           id: 341,
-          date: '2019-02-04',
+          date: '2018-02-04',
           drinks: 0
         },
         {
           id: 342,
-          date: '2019-02-05',
+          date: '2018-02-05',
           drinks: 0
         },
         {
           id: 343,
-          date: '2019-02-06',
-          drinks: 0
+          date: '2018-02-06',
+          drinks: 3
         },
         {
           id: 344,
-          date: '2019-02-07',
+          date: '2018-02-07',
           drinks: 0
         },
         {
           id: 345,
-          date: '2019-02-08',
-          drinks: 0
+          date: '2018-02-08',
+          drinks: 1
         },
         {
           id: 346,
-          date: '2019-02-09',
-          drinks: 0
+          date: '2018-02-09',
+          drinks: 1
         },
         {
           id: 347,
-          date: '2019-02-10',
+          date: '2018-02-10',
           drinks: 0
         },
         {
           id: 348,
-          date: '2019-02-11',
+          date: '2018-02-11',
           drinks: 0
         },
         {
           id: 349,
-          date: '2019-02-12',
+          date: '2018-02-12',
           drinks: 0
         },
         {
           id: 350,
-          date: '2019-02-13',
-          drinks: 0
+          date: '2018-02-13',
+          drinks: 2
         },
         {
           id: 351,
-          date: '2019-02-14',
+          date: '2018-02-14',
           drinks: 0
         },
         {
           id: 352,
-          date: '2019-02-15',
-          drinks: 0
+          date: '2018-02-15',
+          drinks: 1
         },
         {
           id: 353,
-          date: '2019-02-16',
-          drinks: 0
+          date: '2018-02-16',
+          drinks: 2
         },
         {
           id: 354,
-          date: '2019-02-17',
+          date: '2018-02-17',
           drinks: 0
         },
         {
           id: 355,
-          date: '2019-02-18',
+          date: '2018-02-18',
           drinks: 0
         },
         {
           id: 356,
-          date: '2019-02-19',
-          drinks: 0
+          date: '2018-02-19',
+          drinks: 1
         },
         {
           id: 357,
-          date: '2019-02-20',
+          date: '2018-02-20',
           drinks: 0
         },
         {
           id: 358,
-          date: '2019-02-21',
+          date: '2018-02-21',
           drinks: 0
         },
         {
           id: 359,
-          date: '2019-02-22',
+          date: '2018-02-22',
           drinks: 0
         },
         {
           id: 360,
-          date: '2019-02-23',
-          drinks: 0
+          date: '2018-02-23',
+          drinks: 3
         },
         {
           id: 361,
-          date: '2019-02-24',
+          date: '2018-02-24',
           drinks: 0
         },
         {
           id: 362,
-          date: '2019-02-25',
+          date: '2018-02-25',
           drinks: 0
         },
         {
           id: 363,
-          date: '2019-02-26',
-          drinks: 0
+          date: '2018-02-26',
+          drinks: 1
         },
         {
           id: 364,
-          date: '2019-02-27',
-          drinks: 0
+          date: '2018-02-27',
+          drinks: 1
         },
         {
           id: 365,
-          date: '2019-02-28',
+          date: '2018-02-28',
           drinks: 0
         }
       ]);
