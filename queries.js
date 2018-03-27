@@ -19,62 +19,74 @@ module.exports = {
       case 'january':
         return database(table)  
           .where('drinks', '>', 0)
-          .whereBetween('date', ['2019-01-01', '2019-01-31']);
+          .whereBetween('date', ['2019-01-01', '2019-01-31'])
+          .orderBy('id', 'asc');
         break;
       case 'february':
         return database(table)  
           .where('drinks', '>', 0)
-          .whereBetween('date', ['2018-02-01', '2018-02-28']);
+          .whereBetween('date', ['2018-02-01', '2018-02-28'])
+          .orderBy('id', 'asc');
         break;
       case 'march':
         return database(table)  
           .where('drinks', '>', 0)
-          .whereBetween('date', ['2018-03-01', '2018-03-31']);
+          .whereBetween('date', ['2018-03-01', '2018-03-31'])
+          .orderBy('id', 'asc');
         break;
       case 'april':
         return database(table)  
           .where('drinks', '>', 0)
-          .whereBetween('date', ['2018-04-01', '2018-04-30']);
+          .whereBetween('date', ['2018-04-01', '2018-04-30'])
+          .orderBy('id', 'asc');
         break;
       case 'may':
         return database(table)  
           .where('drinks', '>', 0)
-          .whereBetween('date', ['2018-05-01', '2018-05-31']);
+          .whereBetween('date', ['2018-05-01', '2018-05-31'])
+          .orderBy('id', 'asc');
         break;
       case 'june':
         return database(table)  
           .where('drinks', '>', 0)
-          .whereBetween('date', ['2018-06-01', '2018-06-30']);
+          .whereBetween('date', ['2018-06-01', '2018-06-30'])
+          .orderBy('id', 'asc');
         break;
       case 'july':
         return database(table)  
           .where('drinks', '>', 0)
-          .whereBetween('date', ['2018-07-01', '2018-07-31']);
+          .whereBetween('date', ['2018-07-01', '2018-07-31'])
+          .orderBy('id', 'asc');
         break;
       case 'august':
         return database(table)  
           .where('drinks', '>', 0)
-          .whereBetween('date', ['2018-08-01', '2018-08-31']);
+          .whereBetween('date', ['2018-08-01', '2018-08-31'])
+          .orderBy('id', 'asc');
         break;
       case 'september':
         return database(table)  
           .where('drinks', '>', 0)
-          .whereBetween('date', ['2018-09-01', '2018-09-30']);
+          .whereBetween('date', ['2018-09-01', '2018-09-30'])
+          .orderBy('id', 'asc');
         break;
       case 'october':
         return database(table)  
           .where('drinks', '>', 0)
-          .whereBetween('date', ['2018-10-01', '2018-10-31']);
+          .whereBetween('date', ['2018-10-01', '2018-10-31'])
+          .orderBy('id', 'asc');
         break;
       case 'november':
         return database(table)  
           .where('drinks', '>', 0)
-          .whereBetween('date', ['2018-11-01', '2018-11-30']);
+          .whereBetween('date', ['2018-11-01', '2018-11-30'])
+          .orderBy('id', 'asc');
         break;
       case 'december':
         return database(table)  
           .where('drinks', '>', 0)
-          .whereBetween('date', ['2018-12-01', '2018-12-31']);
+          .whereBetween('date', ['2018-12-01', '2018-12-31'])
+          .orderBy('id', 'asc');
         break;
     }
   },
