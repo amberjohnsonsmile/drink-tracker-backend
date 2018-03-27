@@ -1,18 +1,22 @@
-const express = require('express')
-const app = express()
-const bodyParser = require('body-parser')
-const cors = require('cors')
-const queries = require('./queries')
+const express = require('express');
+const app = express();
+const bodyParser = require('body-parser');
+const cors = require('cors');
+const queries = require('./queries');
 
-app.use(bodyParser.json())
-app.use(cors())
+app.use(bodyParser.json());
+app.use(cors());
+
+app.get('/all-drinks', (request, response) => {
+  queries.list('drinks').then(drinks => {
+    response.json({drinks});
+  });
+});
 
 app.get('/drinks', (request, response) => {
-  queries
-    .listDrinks('drinks')
-    .then(drinks => {
-      response.json({ drinks });
-    });
+  queries.listDrinks('drinks').then(drinks => {
+    response.json({drinks});
+  });
 });
 
 app.get('/drinks/:date', (request, response) => {
@@ -34,11 +38,9 @@ app.put('/drinks/:date', (request, response) => {
 });
 
 app.get('/goals', (request, response) => {
-  queries
-    .list('goals')
-    .then(goals => {
-      response.json({ goals });
-    });
+  queries.list('goals').then(goals => {
+    response.json({goals});
+  });
 });
 
 app.post('/goals', (request, response) => {
@@ -60,7 +62,7 @@ app.delete('/goals/:id', (request, response) => {
 });
 
 app.use((request, response) => {
-  response.sendStatus(404)
-})
+  response.sendStatus(404);
+});
 
-app.listen(process.env.PORT || 3000)
+app.listen(process.env.PORT || 3000);

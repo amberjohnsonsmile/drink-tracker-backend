@@ -171,7 +171,7 @@ exports.seed = (knex, Promise) => {
         {
           id: 34,
           date: '2018-04-03',
-          drinks: 0
+          drinks: 1
         },
         {
           id: 35,
@@ -186,7 +186,7 @@ exports.seed = (knex, Promise) => {
         {
           id: 37,
           date: '2018-04-06',
-          drinks: 0
+          drinks: 2
         },
         {
           id: 38,
@@ -201,7 +201,7 @@ exports.seed = (knex, Promise) => {
         {
           id: 40,
           date: '2018-04-09',
-          drinks: 0
+          drinks: 1
         },
         {
           id: 41,
@@ -221,7 +221,7 @@ exports.seed = (knex, Promise) => {
         {
           id: 44,
           date: '2018-04-13',
-          drinks: 0
+          drinks: 3
         },
         {
           id: 45,
@@ -251,7 +251,7 @@ exports.seed = (knex, Promise) => {
         {
           id: 50,
           date: '2018-04-19',
-          drinks: 0
+          drinks: 1
         },
         {
           id: 51,
