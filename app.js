@@ -37,10 +37,13 @@ app.put('/drinks/:date', (request, response) => {
     .catch(console.error);
 });
 
-app.get('/:month', (request, response) => {
-  queries.listMonth(request.params.month, 'drinks').then(drinks => {
-    response.json({drinks});
-  });
+app.post('/goals', (request, response) => {
+  queries
+    .create(request.body, 'goals')
+    .then(goal => {
+      response.status(201).json({goal});
+    })
+    .catch(console.error);
 });
 
 app.get('/goals', (request, response) => {
@@ -49,13 +52,10 @@ app.get('/goals', (request, response) => {
   });
 });
 
-app.post('/goals', (request, response) => {
-  queries
-    .create(request.body, 'goals')
-    .then(goal => {
-      response.status(201).json({goal});
-    })
-    .catch(console.error);
+app.get('/:month', (request, response) => {
+  queries.listMonth(request.params.month, 'drinks').then(drinks => {
+    response.json({drinks});
+  });
 });
 
 app.delete('/goals/:id', (request, response) => {
