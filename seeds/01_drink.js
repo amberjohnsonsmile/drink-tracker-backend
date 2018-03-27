@@ -1752,141 +1752,169 @@ exports.seed = (knex, Promise) => {
         {
           id: 338,
           date: '2018-02-01',
+          dateString: 'Thursday, February 1',
           drinks: 1
         },
         {
           id: 339,
           date: '2018-02-02',
+          dateString: 'Friday, February 2',
           drinks: 0
         },
         {
           id: 340,
           date: '2018-02-03',
+          dateString: 'Saturday, February 3',
           drinks: 2
         },
         {
           id: 341,
           date: '2018-02-04',
+          dateString: 'Sunday, February 4',
           drinks: 0
         },
         {
           id: 342,
           date: '2018-02-05',
+          dateString: 'Monday, February 5',
           drinks: 0
         },
         {
           id: 343,
           date: '2018-02-06',
+          dateString: 'Tuesday, February 6',
           drinks: 3
         },
         {
           id: 344,
           date: '2018-02-07',
+          dateString: 'Wednesday, February 7',
           drinks: 0
         },
         {
           id: 345,
           date: '2018-02-08',
+          dateString: 'Thursday, February 8',
           drinks: 1
         },
         {
           id: 346,
           date: '2018-02-09',
+          dateString: 'Friday, February 9',
           drinks: 1
         },
         {
           id: 347,
           date: '2018-02-10',
+          dateString: 'Saturday, February 10',
           drinks: 0
         },
         {
           id: 348,
           date: '2018-02-11',
+          dateString: 'Sunday, February 11',
           drinks: 0
         },
         {
           id: 349,
           date: '2018-02-12',
+          dateString: 'Monday, February 12',
           drinks: 0
         },
         {
           id: 350,
           date: '2018-02-13',
+          dateString: 'Tuesday, February 13',
           drinks: 2
         },
         {
           id: 351,
           date: '2018-02-14',
+          dateString: 'Wednesday, February 14',
           drinks: 0
         },
         {
           id: 352,
           date: '2018-02-15',
+          dateString: 'Thursday, February 15',
           drinks: 1
         },
         {
           id: 353,
           date: '2018-02-16',
+          dateString: 'Friday, February 16',
           drinks: 2
         },
         {
           id: 354,
           date: '2018-02-17',
+          dateString: 'Saturday, February 17',
           drinks: 0
         },
         {
           id: 355,
           date: '2018-02-18',
+          dateString: 'Sunday, February 18',
           drinks: 0
         },
         {
           id: 356,
           date: '2018-02-19',
+          dateString: 'Monday, February 19',
           drinks: 1
         },
         {
           id: 357,
           date: '2018-02-20',
+          dateString: 'Tuesday, February 20',
           drinks: 0
         },
         {
           id: 358,
           date: '2018-02-21',
+          dateString: 'Wednesday, February 21',
           drinks: 0
         },
         {
           id: 359,
           date: '2018-02-22',
+          dateString: 'Thursday, February 22',
           drinks: 0
         },
         {
           id: 360,
           date: '2018-02-23',
+          dateString: 'Friday, February 23',
           drinks: 3
         },
         {
           id: 361,
           date: '2018-02-24',
+          dateString: 'Saturday, February 24',
           drinks: 0
         },
         {
           id: 362,
           date: '2018-02-25',
+          dateString: 'Sunday, February 25',
           drinks: 0
         },
         {
           id: 363,
           date: '2018-02-26',
+          dateString: 'Monday, February 26',
           drinks: 1
         },
         {
           id: 364,
           date: '2018-02-27',
+          dateString: 'Tuesday, February 27',
           drinks: 1
         },
         {
           id: 365,
           date: '2018-02-28',
+          dateString: 'Wednesday, February 28',
           drinks: 0
         }
       ]);
