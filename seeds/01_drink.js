@@ -6,306 +6,367 @@ exports.seed = (knex, Promise) => {
         {
           id: 1,
           date: '2018-03-01',
+          dateString: 'Thursday, March 1'
           drinks: 0
         },
         {
           id: 2,
           date: '2018-03-02',
+          dateString: 'Friday, March 2'
           drinks: 3
         },
         {
           id: 3,
           date: '2018-03-03',
+          dateString: 'Saturday, March 3'
           drinks: 0
         },
         {
           id: 4,
           date: '2018-03-04',
+          dateString: 'Sunday, March 4'
           drinks: 0
         },
         {
           id: 5,
           date: '2018-03-05',
+          dateString: 'Monday, March 5'
           drinks: 0
         },
         {
           id: 6,
           date: '2018-03-06',
+          dateString: 'Tuesday, March 6'
           drinks: 0
         },
         {
           id: 7,
           date: '2018-03-07',
+          dateString: 'Wednesday, March 7'
           drinks: 0
         },
         {
           id: 8,
           date: '2018-03-08',
+          dateString: 'Thursday, March 8'
           drinks: 1
         },
         {
           id: 9,
           date: '2018-03-09',
+          dateString: 'Friday, March 9'
           drinks: 3
         },
         {
           id: 10,
           date: '2018-03-10',
+          dateString: 'Saturday, March 10'
           drinks: 0
         },
         {
           id: 11,
           date: '2018-03-11',
+          dateString: 'Sunday, March 11'
           drinks: 1
         },
         {
           id: 12,
           date: '2018-03-12',
+          dateString: 'Monday, March 12'
           drinks: 0
         },
         {
           id: 13,
           date: '2018-03-13',
+          dateString: 'Tuesday, March 13'
           drinks: 3
         },
         {
           id: 14,
           date: '2018-03-14',
+          dateString: 'Wednesday, March 14'
           drinks: 0
         },
         {
           id: 15,
           date: '2018-03-15',
+          dateString: 'Thursday, March 15'
           drinks: 0
         },
         {
           id: 16,
           date: '2018-03-16',
+          dateString: 'Friday, March 16'
           drinks: 3
         },
         {
           id: 17,
           date: '2018-03-17',
+          dateString: 'Saturday, March 17'
           drinks: 1
         },
         {
           id: 18,
           date: '2018-03-18',
+          dateString: 'Sunday, March 18'
           drinks: 1
         },
         {
           id: 19,
           date: '2018-03-19',
+          dateString: 'Monday, March 19'
           drinks: 0
         },
         {
           id: 20,
           date: '2018-03-20',
+          dateString: 'Tuesday, March 20'
           drinks: 1
         },
         {
           id: 21,
           date: '2018-03-21',
+          dateString: 'Wednesday, March 21'
           drinks: 2
         },
         {
           id: 22,
           date: '2018-03-22',
+          dateString: 'Thursday, March 22'
           drinks: 0
         },
         {
           id: 23,
           date: '2018-03-23',
+          dateString: 'Friday, March 23'
           drinks: 3
         },
         {
           id: 24,
           date: '2018-03-24',
+          dateString: 'Saturday, March 24'
           drinks: 0
         },
         {
           id: 25,
           date: '2018-03-25',
+          dateString: 'Sunday, March 25'
           drinks: 0
         },
         {
           id: 26,
           date: '2018-03-26',
+          dateString: 'Monday, March 26'
           drinks: 0
         },
         {
           id: 27,
           date: '2018-03-27',
+          dateString: 'Tuesday, March 27'
           drinks: 1
         },
         {
           id: 28,
           date: '2018-03-28',
+          dateString: 'Wednesday, March 28'
           drinks: 1
         },
         {
           id: 29,
           date: '2018-03-29',
+          dateString: 'Thursday, March 29'
           drinks: 0
         },
         {
           id: 30,
           date: '2018-03-30',
+          dateString: 'Friday, March 30'
           drinks: 0
         },
         {
           id: 31,
           date: '2018-03-31',
+          dateString: 'Saturday, March 31'
           drinks: 0
         },
         {
           id: 32,
           date: '2018-04-01',
+          dateString: 'Sunday, April 1'
           drinks: 0
         },
         {
           id: 33,
           date: '2018-04-02',
+          dateString: 'Monday, April 2'
           drinks: 0
         },
         {
           id: 34,
           date: '2018-04-03',
+          dateString: 'Tuesday, April 3'
           drinks: 0
         },
         {
           id: 35,
           date: '2018-04-04',
+          dateString: 'Wednesday, April 4'
           drinks: 0
         },
         {
           id: 36,
           date: '2018-04-05',
+          dateString: 'Thursday, April 5'
           drinks: 0
         },
         {
           id: 37,
           date: '2018-04-06',
+          dateString: 'Friday, April 6'
           drinks: 0
         },
         {
           id: 38,
           date: '2018-04-07',
+          dateString: 'Saturday, April 7'
           drinks: 0
         },
         {
           id: 39,
           date: '2018-04-08',
+          dateString: 'Sunday, April 8'
           drinks: 0
         },
         {
           id: 40,
           date: '2018-04-09',
+          dateString: 'Monday, April 9'
           drinks: 0
         },
         {
           id: 41,
           date: '2018-04-10',
+          dateString: 'Tuesday, April 10'
           drinks: 0
         },
         {
           id: 42,
           date: '2018-04-11',
+          dateString: 'Wednesday, April 11'
           drinks: 0
         },
         {
           id: 43,
           date: '2018-04-12',
+          dateString: 'Thursday, April 12'
           drinks: 0
         },
         {
           id: 44,
           date: '2018-04-13',
+          dateString: 'Friday, April 13'
           drinks: 0
         },
         {
           id: 45,
           date: '2018-04-14',
+          dateString: 'Saturday, April 14'
           drinks: 0
         },
         {
           id: 46,
           date: '2018-04-15',
+          dateString: 'Sunday, April 15'
           drinks: 0
         },
         {
           id: 47,
           date: '2018-04-16',
+          dateString: 'Monday, April 16'
           drinks: 0
         },
         {
           id: 48,
           date: '2018-04-17',
+          dateString: 'Tuesday, April 17'
           drinks: 0
         },
         {
           id: 49,
           date: '2018-04-18',
+          dateString: 'Wednesday, April 18'
           drinks: 0
         },
         {
           id: 50,
           date: '2018-04-19',
+          dateString: 'Thursday, April 19'
           drinks: 0
         },
         {
           id: 51,
           date: '2018-04-20',
+          dateString: 'Friday, April 20'
           drinks: 0
         },
         {
           id: 52,
           date: '2018-04-21',
+          dateString: 'Saturday, April 21'
           drinks: 0
         },
         {
           id: 53,
           date: '2018-04-22',
+          dateString: 'Sunday, April 22'
           drinks: 0
         },
         {
           id: 54,
           date: '2018-04-23',
+          dateString: 'Monday, April 23'
           drinks: 0
         },
         {
           id: 55,
           date: '2018-04-24',
+          dateString: 'Tuesday, April 24'
           drinks: 0
         },
         {
           id: 56,
           date: '2018-04-25',
+          dateString: 'Wednesday, April 25'
           drinks: 0
         },
         {
           id: 57,
           date: '2018-04-26',
+          dateString: 'Thursday, April 26'
           drinks: 0
         },
         {
           id: 58,
           date: '2018-04-27',
+          dateString: 'Friday, April 27'
           drinks: 0
         },
         {
           id: 59,
           date: '2018-04-28',
+          dateString: 'Saturday, April 28'
           drinks: 0
         },
         {
           id: 60,
           date: '2018-04-29',
+          dateString: 'Sunday, April 29'
           drinks: 0
         },
         {
           id: 61,
           date: '2018-04-30',
+          dateString: 'Monday, April 30'
           drinks: 0
         },
         {
