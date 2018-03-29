@@ -7,7 +7,7 @@
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "author": "Amber Johnson, Kyle Weintraub, Emily Pancake, and Paul Highum",
+  "author": "Amber Johnson",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.2",
